@@ -1,0 +1,17 @@
+@import "../../styles/index";
+
+.hero {
+  background-image: url("../../assets/img/hero-bg.jpg");
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+
+  &_wrapper {
+    gap: 20px;
+
+    &-title {
+      background-color: rgba($color: #888888, $alpha: 0.7);
+      opacity: 0.5;
+    }
+  }
+}

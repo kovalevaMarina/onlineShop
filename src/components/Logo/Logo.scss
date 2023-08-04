@@ -1,0 +1,14 @@
+@import "../../styles/index";
+
+.logo {
+  &-link {
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 400;
+  }
+
+  span {
+    font-weight: 700;
+    color: $color-brown;
+  }
+}

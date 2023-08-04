@@ -1,0 +1,16 @@
+@import "../../styles/index";
+
+.header {
+  &-top {
+    background-color: $color-black;
+
+    &_text {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 300;
+      letter-spacing: 3px;
+      color: $color-white;
+      text-align: center;
+    }
+  }
+}
